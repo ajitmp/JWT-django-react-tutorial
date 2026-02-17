@@ -1,1 +1,94 @@
 frontent/node_modules
+backend/venv/
+backend/__pycache__
+backend/db.sqlite3
+
+#################################################
+# Global
+#################################################
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+*.env
+
+#################################################
+# Python / Django (backend/)
+#################################################
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (optional: keep if team project)
+# backend/**/migrations/*
+# !backend/**/migrations/__init__.py
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+#################################################
+# Node / React (frontend/)
+#################################################
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Build output
+frontend/build/
+frontend/dist/
+dist/
+build/
+
+# Vite
+frontend/.vite/
+
+# Next.js (if ever used)
+.next/
+
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#################################################
+# IDE
+#################################################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#################################################
+# Misc
+#################################################
+
+coverage/
+.cache/
